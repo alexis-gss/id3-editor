@@ -1,0 +1,23 @@
+name: Github actions
+
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+    types:
+      - opened
+
+jobs:
+  validation-stylelint:
+    name: Validation stylelint
+    uses: alexis-gss/github-workflows/.github/workflows/validation-stylelint.yml@master
+  validation-eslint:
+    name: Validation eslint
+    uses: alexis-gss/github-workflows/.github/workflows/validation-eslint.yml@master
+  deployment:
+    name: Deployment production
+    needs: ['validation-stylelint', 'validation-eslint']
+    uses: alexis-gss/github-workflows/.github/workflows/deployment.yml@master
+    secrets: inherit
+    if: github.ref == 'refs/heads/master'

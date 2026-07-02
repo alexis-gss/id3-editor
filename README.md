@@ -1,15 +1,16 @@
 <div align="center">
 
-[![Banner of the github account](./assets/images/github-visual.png)](https://doc-github-project-template.alexis-gousseau.com)
+[![Banner of the github account](./assets/images/github-visual.jpg)](https://doc-id3-editor.alexis-gousseau.com)
 
-[![GitHub latest commit](https://img.shields.io/github/last-commit/alexis-gss/github-project-template/develop?color=FFFFFF&style=for-the-badge)](https://github.com/alexis-gss/github-project-template/commit/master)
-[![GitHub tag](https://img.shields.io/github/tag/alexis-gss/github-project-template?style=for-the-badge&color=FFFFFF)](https://github.com/alexis-gss/github-project-template/tags)
-[![GitHub License](https://img.shields.io/github/license/alexis-gss/github-project-template?color=FFFFFF&style=for-the-badge)](https://github.com/alexis-gss/github-project-template/blob/master/LICENSE)
+[![Website test](https://img.shields.io/website-up-down-green-red/https/id3-editor.alexis-gousseau.com?style=for-the-badge)](https://id3-editor.alexis-gousseau.com)
+[![GitHub latest commit](https://img.shields.io/github/last-commit/alexis-gss/id3-editor/develop?color=2f6f4f&style=for-the-badge)](https://github.com/alexis-gss/id3-editor/commit/master)
+[![GitHub tag](https://img.shields.io/github/tag/alexis-gss/id3-editor?style=for-the-badge&color=2f6f4f)](https://github.com/alexis-gss/id3-editor/tags)
+[![GitHub License](https://img.shields.io/github/license/alexis-gss/id3-editor?color=2f6f4f&style=for-the-badge)](https://github.com/alexis-gss/id3-editor/blob/master/LICENSE)
 
 </div>
 
 # Introduction
-[Github Project Template](https://doc-github-project-template.alexis-gousseau.com) is a template dedicated to start a new project in Github.
+[Id3 Editor](https://doc-id3-editor.alexis-gousseau.com) is a website where you can modify global metadata of MP3 file (id3 tags like cover, title, artists etc…).
 
 # Table of contents
 
@@ -27,16 +28,19 @@
 # Frameworks, Platforms and Libraries
 <!-- https://ileriayo.github.io/markdown-badges/ -->
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![Astro](https://img.shields.io/badge/astro-%232C2052.svg?style=for-the-badge&logo=astro&logoColor=white)](https://astro.build/)
+[![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://react.dev/)
+[![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 # Documentation
 
-You can find all the documentation of this package on this link : [Github Project Template documentation](https://doc-github-project-template.alexis-gousseau.com).
+You can find all the documentation of this package on this link : [Id3 Editor documentation](https://doc-id3-editor.alexis-gousseau.com).
 
 # Contributing
 
 ### Create a task
 
-You can create a [new issue](https://github.com/alexis-gss/github-project-template/issues/new/choose) with a specific templates : bug or feature.
+You can create a [new issue](https://github.com/alexis-gss/id3-editor/issues/new/choose) with a specific templates : bug or feature.
 
 Once your code is working, please verify that your code is following the same coding standards.
 
@@ -51,12 +55,12 @@ When implementing a feature please create an issue first explaining your idea an
 
 # Changelog
 
-Latest version [v1.1.0](https://github.com/alexis-gss/github-project-template/releases/tag/v1.1.0).
+Latest version [v1.1.0](https://github.com/alexis-gss/id3-editor/releases/tag/v1.1.0).
 
 See the [CHANGELOG.md](CHANGELOG.md) file for details.
 
 # Copyright and License
 
-[Github Project Template]((https://doc-github-project-template.alexis-gousseau.com)) was written by [Alexis Gousseau](https://github.com/alexis-gss).
+[Id3 Editor]((https://id3-editor.alexis-gousseau.com)) was written by [Alexis Gousseau](https://github.com/alexis-gss).
 
-Copyright (c) 2025 and beyond Alexis Gousseau.
+Copyright (c) 2026 and beyond Alexis Gousseau.

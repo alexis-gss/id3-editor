@@ -1,24 +1,73 @@
 {
-  "name": "alexis-gss/github-project-template",
-  "version": "1.1.0",
-  "description": "Mutualisation of Github actions used in many of my projects.",
-  "homepage": "https://doc-github-project-template.alexis-gousseau.com",
-  "authors": [
-    {
-      "name": "Alexis Gousseau",
-      "homepage": "https://alexis-gousseau.com",
-      "role": "Developer"
+    "name": "alexis-gss/id3-editor",
+    "version": "1.1.0",
+    "description": "Mutualisation of Github actions used in many of my projects.",
+    "homepage": "https://doc-id3-editor.alexis-gousseau.com",
+    "authors": [
+        {
+            "name": "Alexis Gousseau",
+            "homepage": "https://alexis-gousseau.com",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "alexis-gss",
+        "github",
+        "id3"
+    ],
+    "license": "MIT",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "astro build",
+        "preview": "astro preview --port 3003 --host",
+        "eslint": "astro check && tsc --noEmit && node ./node_modules/.bin/eslint --max-warnings 0 --config eslint.config.ts ./src/**/*.tsx ./src/**/*.ts",
+        "eslint-fix": "node ./node_modules/.bin/eslint --max-warnings 0 --config eslint.config.ts ./src/**/*.tsx ./src/**/*.ts --fix",
+        "stylelint": "node ./node_modules/.bin/stylelint --config stylelint.config.ts --max-warnings 0 ./src/styles/**/*.css",
+        "stylelint-fix": "node ./node_modules/.bin/stylelint --fix --config stylelint.config.ts --max-warnings 0 ./src/styles/**/*.css",
+        "format": "prettier --write \"src/**/*.{ts,tsx,astro,md}\"",
+        "format:check": "prettier --check \"src/**/*.{ts,tsx,astro,md}\""
+    },
+    "dependencies": {
+        "@astrojs/react": "^5.0.3",
+        "@tailwindcss/vite": "^4.2.2",
+        "astro": "^7.0.5",
+        "browser-id3-writer": "^6.3.1",
+        "class-variance-authority": "^0.7.1",
+        "clsx": "^2.1.1",
+        "lucide-react": "^1.8.0",
+        "music-metadata": "^11.13.0",
+        "react": "^19.2.5",
+        "react-dom": "^19.2.5",
+        "react-easy-crop": "^6.1.0",
+        "slugify": "^1.6.9",
+        "tailwind-merge": "^3.5.0",
+        "tailwindcss": "^4.2.2",
+        "tsx": "^4.21.0",
+        "zod": "^4.4.3"
+    },
+    "devDependencies": {
+        "@alexis-gss/husky-config": "^1.0.2",
+        "@astrojs/check": "^0.9.8",
+        "@types/eslint-plugin-jsx-a11y": "^6.10.1",
+        "@types/node": "^20.19.39",
+        "@types/react": "^19.2.14",
+        "@types/react-dom": "^19.2.3",
+        "@typescript-eslint/eslint-plugin": "^8.58.2",
+        "@typescript-eslint/parser": "^8.58.2",
+        "autoprefixer": "^10.5.0",
+        "eslint": "^9.39.4",
+        "eslint-formatter-junit": "^9.0.1",
+        "eslint-plugin-jsx-a11y": "^6.10.2",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-react-hooks": "^7.0.1",
+        "postcss": "^8.5.10",
+        "prettier": "^3.8.3",
+        "prettier-plugin-astro": "^0.14.1",
+        "prettier-plugin-tailwindcss": "^0.7.2",
+        "stylelint": "^17.8.0",
+        "stylelint-config-standard": "^40.0.0",
+        "stylelint-order": "^8.1.1",
+        "typescript": "^5.9.3"
     }
-  ],
-  "keywords": [
-    "alexis-gss",
-    "github",
-    "template"
-  ],
-  "license": "MIT",
-  "private": true,
-  "type": "module",
-  "dependencies": {
-    "@alexis-gss/husky-config": "^1.0.2"
-  }
 }

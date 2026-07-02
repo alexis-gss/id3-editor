@@ -1,0 +1,12 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Id3Editor from "@/components/Id3Editor.tsx";
+---
+
+<Layout>
+  <main
+    class="flex flex-1 flex-col items-center justify-center gap-8 px-4 py-16"
+  >
+    <Id3Editor client:load />
+  </main>
+</Layout>

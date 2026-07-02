@@ -1,0 +1,43 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "compilerOptions": {
+    // Chemins alias.
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "astro/node_modules/vite": ["./node_modules/astro/node_modules/vite"]
+    },
+
+    // React.
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "allowJs": true,
+    
+    "noUncheckedIndexedAccess": true,
+    "noImplicitAny": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    // Module resolution.
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "ES2020",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+
+    // Type checking.
+    "skipLibCheck": true,
+    "types": ["node", "react", "react-dom", "astro/astro-jsx", "vite/client"],
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.astro", "*.ts", "*.tsx"],
+  "exclude": ["node_modules", "dist", "src/versions"]
+}
