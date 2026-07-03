@@ -55,7 +55,7 @@ When implementing a feature please create an issue first explaining your idea an
 
 # Changelog
 
-Latest version [v1.1.0](https://github.com/alexis-gss/id3-editor/releases/tag/v1.1.0).
+Latest version [v1.0.0](https://github.com/alexis-gss/id3-editor/releases/tag/v1.0.0).
 
 See the [CHANGELOG.md](CHANGELOG.md) file for details.
 

@@ -1,6 +1,6 @@
 {
     "name": "alexis-gss/id3-editor",
-    "version": "1.1.0",
+    "version": "1.0.0",
     "description": "Mutualisation of Github actions used in many of my projects.",
     "homepage": "https://doc-id3-editor.alexis-gousseau.com",
     "authors": [
