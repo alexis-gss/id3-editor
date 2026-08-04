@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Banner of the github account](./assets/images/github-visual.jpg)](https://doc-id3-editor.alexis-gousseau.com)
+[![Banner of the github account](./assets/images/github-visual.jpg)](https://id3-editor.alexis-gousseau.com)
 
 [![Website test](https://img.shields.io/website-up-down-green-red/https/id3-editor.alexis-gousseau.com?style=for-the-badge)](https://id3-editor.alexis-gousseau.com)
 [![GitHub latest commit](https://img.shields.io/github/last-commit/alexis-gss/id3-editor/develop?color=2f6f4f&style=for-the-badge)](https://github.com/alexis-gss/id3-editor/commit/master)
@@ -10,7 +10,7 @@
 </div>
 
 # Introduction
-[Id3 Editor](https://doc-id3-editor.alexis-gousseau.com) is a website where you can modify global metadata of MP3 file (id3 tags like cover, title, artists etc…).
+[Id3 Editor](https://id3-editor.alexis-gousseau.com) is a website where you can modify global metadata of MP3 file (id3 tags like cover, title, artists etc…).
 
 # Table of contents
 
