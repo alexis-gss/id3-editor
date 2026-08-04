@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://id3-editor.alexis-gousseau.com/sitemap-index.xml
